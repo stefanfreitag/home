@@ -1,3 +1,9 @@
+# Name of website
+title: Th!nk Pos!tive
+
+# Name to show in the footer
+author: Stefan Freitag
+
 baseurl: "/home"
 twitter_username: stefanfreitag
 github_username:  stefanfreitag
