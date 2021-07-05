@@ -3,10 +3,10 @@ name: Housekeeping
 on:
   push:
     branches:
-      - main
+      - gh-pages
   pull_request:
     branches:
-      - main
+      - gh-pages
 
 jobs:
   linting:
