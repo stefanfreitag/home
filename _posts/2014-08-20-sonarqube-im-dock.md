@@ -20,22 +20,22 @@ sudo docker.io pull tpires/sonar-server
 
 Pulling repository tpires/sonar-server
 0c8b002d5e81: Download complete 
-1fe4551ae843: Download complete 
-8dbd9e392a96: Download complete 
-511136ea3c5a: Download complete 
-5e66087f3ffe: Download complete 
-5332fecd94d7: Download complete 
-1317281dd6cf: Download complete 
-59fbad0fda08: Download complete 
-db590527a4a8: Download complete 
-0678282c03c3: Download complete 
-4d26dd3ebc1c: Download complete 
-d4010efcfd86: Download complete 
+1fe4551ae843: Download complete
+8dbd9e392a96: Download complete
+511136ea3c5a: Download complete
+5e66087f3ffe: Download complete
+5332fecd94d7: Download complete
+1317281dd6cf: Download complete
+59fbad0fda08: Download complete
+db590527a4a8: Download complete
+0678282c03c3: Download complete
+4d26dd3ebc1c: Download complete
+d4010efcfd86: Download complete
 99ec81b80c55: Download complete 
-b261bc65cd23: Download complete 
-42404685406e: Download complete 
-6cc69450fe19: Download complete 
-efc4fbcd007f: Download complete 
+b261bc65cd23: Download complete
+42404685406e: Download complete
+6cc69450fe19: Download complete
+efc4fbcd007f: Download complete
 2baeb2edbf92: Download complete
 ecd5c1cc18ac: Download complete
 1f089cc15e82: Download complete
@@ -59,36 +59,36 @@ de79bc7778b8: Download complete</pre>
 
 ```shell
 sudo docker.io pull tpires/sonar-mysql
-[sudo] password for stefan: 
+[sudo] password for stefan:
 Pulling repository tpires/sonar-mysql
-348f1ba32d0d: Download complete 
-bbcf5a8adec8: Download complete 
-8dbd9e392a96: Download complete 
-17e47fa04f24: Download complete 
-6837c2fb4e8b: Download complete 
-ddb842ad1c18: Download complete 
-8de2d7e441a3: Download complete 
-a437b2651ed7: Download complete 
-80ee21f9c929: Download complete 
-680cf1fd2dae: Download complete 
-b7f010585e63: Download complete 
-0ec528b984f2: Download complete 
-8ccf66ccc334: Download complete 
-511136ea3c5a: Download complete 
-9bad880da3d2: Download complete 
-25f11f5fb0cb: Download complete 
-ebc34468f71d: Download complete 
-2318d26665ef: Download complete 
-ba5877dc9bec: Download complete 
-308cbebd2bfd: Download complete 
-6e1e835e7e81: Download complete 
-8e253819e7bd: Download complete 
-84580fb32fc2: Download complete 
-76c06922f402: Download complete 
-a2bcf7a7b14e: Download complete 
-667c9cb093be: Download complete 
-ec94d4291222: Download complete 
-4f224c8894e3: Download complete 
+348f1ba32d0d: Download complete
+bbcf5a8adec8: Download complete
+8dbd9e392a96: Download complete
+17e47fa04f24: Download complete
+6837c2fb4e8b: Download complete
+ddb842ad1c18: Download complete
+8de2d7e441a3: Download complete
+a437b2651ed7: Download complete
+80ee21f9c929: Download complete
+680cf1fd2dae: Download complete
+b7f010585e63: Download complete
+0ec528b984f2: Download complete
+8ccf66ccc334: Download complete
+511136ea3c5a: Download complete
+9bad880da3d2: Download complete
+25f11f5fb0cb: Download complete
+ebc34468f71d: Download complete
+2318d26665ef: Download complete
+ba5877dc9bec: Download complete
+308cbebd2bfd: Download complete
+6e1e835e7e81: Download complete
+8e253819e7bd: Download complete
+84580fb32fc2: Download complete
+76c06922f402: Download complete
+a2bcf7a7b14e: Download complete
+667c9cb093be: Download complete
+ec94d4291222: Download complete
+4f224c8894e3: Download complete
 ```
 
 Nach dem Download geht es an den Start des ersten Containers, der die Datenbank bereitstellen wird:

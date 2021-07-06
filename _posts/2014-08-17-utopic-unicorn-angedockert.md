@@ -33,13 +33,13 @@ So weit, so gut. Um endlich mit dem Testen des Utopischen Einhorns beginnen zu k
 ```shell
 sudo docker.io pull ubuntu:utopic
 Pulling repository ubuntu
-75204fdb260b: Download complete 
-511136ea3c5a: Download complete 
-af82eb377801: Download complete 
-f33dbb8bc20e: Download complete 
-92ac38e49c3e: Download complete 
-aa822e26d727: Download complete 
-31db3b10873e: Download complete 
+75204fdb260b: Download complete
+511136ea3c5a: Download complete
+af82eb377801: Download complete
+f33dbb8bc20e: Download complete
+92ac38e49c3e: Download complete
+aa822e26d727: Download complete
+31db3b10873e: Download complete
 ```
 
 Der Zugriff auf das heruntergeladene Image erfolgt beispielsweise über die (kurze) Image ID. In meinem Fall ist dies die 75204fdb260b wie der Aufruf von Docker mit der Option `images` zeigt:
