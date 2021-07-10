@@ -6,14 +6,20 @@ tags: sonarqube docker
 layout: post
 ---
 
-Mit dem Programmieren ist es so eine Sache: manchmal gewöhnt man sich Dinge an, die nicht gut sind. Um so besser, wenn einem dann auf die Finger geklopft wird. Letzteres übernehmen bei mir Werkzeuge, die den geschriebenen Quellcode anhand verschiedener Regel und Metriken analysieren und Berichte erstellen. Eines meiner Lieblingswerkzeuge ist Sonar bzw. [SonarQube](http://www.sonarqube.org/ "SonarQube Homepage") wie es heute heißt. SonarQube besteht aus insgesamt drei Komponenten:
+Mit dem Programmieren ist es so eine Sache: manchmal gewöhnt man sich Dinge an,
+die nicht gut sind. Um so besser, wenn einem dann auf die Finger geklopft wird.
+Letzteres übernehmen bei mir Werkzeuge, die den geschriebenen Quellcode anhand
+verschiedener Regel und Metriken analysieren und Berichte erstellen. Eines
+meiner Lieblingswerkzeuge ist Sonar bzw. [SonarQube](http://www.sonarqube.org/ "SonarQube Homepage") wie es heute heißt. SonarQube besteht aus insgesamt drei Komponenten:
 
 - einem Modul für die Integration in Build-Management-Tools wie [Ant](http://ant.apache.org/ "Apache Ant"), [Maven](http://maven.apache.org/ "Maven Homepage") oder [Gradle](http://www.gradle.org/ "Gradle Homepage")
 - einer Datenbank zur Persistierung der Testergebnisse
 - einem Webserver zur Verwaltung bzw. Visualisierung der Testergebnisse
 
 Über die [GitHub-Seite von Tiago Pires](https://github.com/tpires "GitHub-Seite von Tiago Pires") bin ich auf [docker-sonar](https://github.com/tpires/docker-sonar "Link zu docker-sonar") gestossen, welches seit einigen Tagen auf meinem Rechner in Form von zwei Containern läuft.  
-Gemäß der Anleitung von Tiago habe ich zunächst die beiden Images heruntergeladen: eines enthält die für SonarQube notwendig Datenbank (hier: MySQL) und das andere den Webserver.
+Gemäß der Anleitung von Tiago habe ich zunächst die beiden Images
+heruntergeladen: eines enthält die für SonarQube notwendig Datenbank
+(hier: MySQL) und das andere den Webserver.
 
 ```shell
 sudo docker.io pull tpires/sonar-server
@@ -91,14 +97,18 @@ ec94d4291222: Download complete
 4f224c8894e3: Download complete
 ```
 
-Nach dem Download geht es an den Start des ersten Containers, der die Datenbank bereitstellen wird:
+Nach dem Download geht es an den Start des ersten Containers, der die Datenbank
+bereitstellen wird:
 
 ```shell
 $ sudo docker.io run -i -t -d -p 3306:3306 --name smysql tpires/sonar-mysql
 3e8a23c2216d770d1ec43da34ed6b3b57db52788267c09dde83e5b7e306399a5
 ```
 
-Die Option `-p` sorgt für eine Port-Weiterleitung von dem Port 3306 im Container auf den Port 3306 von `localhost`. Mit `--name` bekommt der Container einen Namen zugewiesen. Diesen Namen nutze ich bei der Erstellung des zweiten Containers zur Erzeugung der Verknüpfung (des Links):
+Die Option `-p` sorgt für eine Port-Weiterleitung von dem Port 3306 im Container
+auf den Port 3306 von `localhost`. Mit `--name` bekommt der Container einen
+Namen zugewiesen. Diesen Namen nutze ich bei der Erstellung des zweiten
+Containers zur Erzeugung der Verknüpfung (des Links):
 
 ```shell
 sudo docker.io run -i -t -d --name sonar -p 9000:9000 --link smysql:db tpires/sonar-server

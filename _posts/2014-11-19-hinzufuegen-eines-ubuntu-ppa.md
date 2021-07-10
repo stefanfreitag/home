@@ -6,7 +6,7 @@ layout: post
 ---
 
 Für tilestream wird eine spezielle Version der Software
- [node.js](http://nodejs.org/) empfohlen, die über ein separates Ubuntu 
+ [node.js](http://nodejs.org/) empfohlen, die über ein separates Ubuntu
  Repository, ein _Personal Package Archive_ (PPA), bezogen werden kann.
 
 Ein PPA kann recht einfach in die vorhandene Ubuntu Distribution eingebunden

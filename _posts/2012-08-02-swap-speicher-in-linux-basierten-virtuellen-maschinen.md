@@ -6,11 +6,20 @@ tags: swap linux virtual machine vm
 layout: post
 ---
 
-Sollte auf einem Rechner der physische Speicher knapp werden, greifen das darauf ausgeführte Betriebssystem und auch die Anwendungen gerne zu dem unter dem Deckmantel des virtuellen Speichers versteckten Swap-Speicher. Bei virtuellen Maschinen ist dies nicht anders. Daher wird in deren Ressourcenkonfiguration neben dem Hauptspeicher meist eine eigene Partition (Image, Logical Volume, ...) für den Swap-Speicher eingebunden.
+Sollte auf einem Rechner der physische Speicher knapp werden, greifen das darauf
+ausgeführte Betriebssystem und auch die Anwendungen gerne zu dem unter dem
+Deckmantel des virtuellen Speichers versteckten Swap-Speicher. Bei virtuellen
+Maschinen ist dies nicht anders. Daher wird in deren Ressourcenkonfiguration
+neben dem Hauptspeicher meist eine eigene Partition (Image, Logical Volume, ...)
+für den Swap-Speicher eingebunden.
 
-Läuft die virtuelle Maschine allerdings bereits im Produktivbetrieb und das Einbinden einer solchen Partition wurde vergessen, so kann der Swap-Speicher durch eine in der virtuellen Maschine liegende Datei bereitgestellt werden. Man muss bei diesem Vorgehen jedoch mit Performanceeinbußen rechnen.
+Läuft die virtuelle Maschine allerdings bereits im Produktivbetrieb und das
+Einbinden einer solchen Partition wurde vergessen, so kann der Swap-Speicher
+durch eine in der virtuellen Maschine liegende Datei bereitgestellt werden.
+Man muss bei diesem Vorgehen jedoch mit Performanceeinbußen rechnen.
 
-Im Einzelnen sind zur Umsetzung des Datei-basierten Swap-Speichers folgende Schritte durchzuführen:
+Im Einzelnen sind zur Umsetzung des Datei-basierten Swap-Speichers folgende
+Schritte durchzuführen:
 
 - Innerhalb der virtuellen Maschine per `dd` eine Datei anlegen, hier zum Beispiel die Datei `/swapfile` mit einer Größe von 1024 MByte
 
