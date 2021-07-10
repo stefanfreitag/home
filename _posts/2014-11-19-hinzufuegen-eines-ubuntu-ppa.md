@@ -5,17 +5,25 @@ author: Stefan Freitag
 layout: post
 ---
 
-Für tilestream wird eine spezielle Version der Software [node.js](http://nodejs.org/) empfohlen, die über ein separates Ubuntu Repository, ein _Personal Package Archive_ (PPA), bezogen werden kann.
+Für tilestream wird eine spezielle Version der Software
+ [node.js](http://nodejs.org/) empfohlen, die über ein separates Ubuntu
+ Repository, ein _Personal Package Archive_ (PPA), bezogen werden kann.
 
-Ein PPA kann recht einfach in die vorhandene Ubuntu Distribution eingebunden werden: es wird (alternativ zum direkten Editieren der Datei `/etc/apt/sources.list`) lediglich das Tool `/usr/bin/add-apt-repository` benötigt. Dieses liegt im Paket `software-properties-common`, welches ggf. installiert werden muss.
+Ein PPA kann recht einfach in die vorhandene Ubuntu Distribution eingebunden
+werden: es wird (alternativ zum direkten Editieren der Datei
+`/etc/apt/sources.list`) lediglich das Tool `/usr/bin/add-apt-repository`
+benötigt. Dieses liegt im Paket `software-properties-common`, welches ggf.
+installiert werden muss.
 
 Der allgemeine Aufruf für das Hinzufügen eines PPA lautet
 
 ```shell
-sudo add-apt-repository ppa:LP-BENUTZER/PPA-NAME 
+sudo add-apt-repository ppa:LP-BENUTZER/PPA-NAME
 ```
 
-wobei `LP-BENUTZER` dem [Launchpad](https://launchpad.net/)-Benutzernamen des Repository-Inhabers entspricht. Für das zuvor erwähnte node.js lautet die passende Zeile
+wobei `LP-BENUTZER` dem [Launchpad](https://launchpad.net/)-Benutzernamen
+des Repository-Inhabers entspricht. Für das zuvor erwähnte node.js lautet
+die passende Zeile
 
 ```shell
 sudo apt-add-repository ppa:chris-lea/node.js</pre>
