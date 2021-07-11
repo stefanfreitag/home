@@ -10,13 +10,18 @@ Mit dem Programmieren ist es so eine Sache: manchmal gewöhnt man sich Dinge an,
 die nicht gut sind. Um so besser, wenn einem dann auf die Finger geklopft wird.
 Letzteres übernehmen bei mir Werkzeuge, die den geschriebenen Quellcode anhand
 verschiedener Regel und Metriken analysieren und Berichte erstellen. Eines
-meiner Lieblingswerkzeuge ist Sonar bzw. [SonarQube](http://www.sonarqube.org/ "SonarQube Homepage") wie es heute heißt. SonarQube besteht aus insgesamt drei Komponenten:
+meiner Lieblingswerkzeuge ist Sonar bzw. [SonarQube](http://www.sonarqube.org/)
+wie es heute heißt. SonarQube besteht aus insgesamt drei Komponenten:
 
-- einem Modul für die Integration in Build-Management-Tools wie [Ant](http://ant.apache.org/ "Apache Ant"), [Maven](http://maven.apache.org/ "Maven Homepage") oder [Gradle](http://www.gradle.org/ "Gradle Homepage")
+- einem Modul für die Integration in Build-Management-Tools wie
+  [Ant](http://ant.apache.org/"), [Maven](http://maven.apache.org/) oder
+  [Gradle](http://www.gradle.org/)
 - einer Datenbank zur Persistierung der Testergebnisse
 - einem Webserver zur Verwaltung bzw. Visualisierung der Testergebnisse
 
-Über die [GitHub-Seite von Tiago Pires](https://github.com/tpires "GitHub-Seite von Tiago Pires") bin ich auf [docker-sonar](https://github.com/tpires/docker-sonar "Link zu docker-sonar") gestossen, welches seit einigen Tagen auf meinem Rechner in Form von zwei Containern läuft.  
+Über die [GitHub-Seite von Tiago Pires](https://github.com/tpires) bin ich auf
+[docker-sonar](https://github.com/tpires/docker-sonar) gestossen, welches seit
+einigen Tagen auf meinem Rechner in Form von zwei Containern läuft.
 Gemäß der Anleitung von Tiago habe ich zunächst die beiden Images
 heruntergeladen: eines enthält die für SonarQube notwendig Datenbank
 (hier: MySQL) und das andere den Webserver.
@@ -25,7 +30,7 @@ heruntergeladen: eines enthält die für SonarQube notwendig Datenbank
 sudo docker.io pull tpires/sonar-server
 
 Pulling repository tpires/sonar-server
-0c8b002d5e81: Download complete 
+0c8b002d5e81: Download complete
 1fe4551ae843: Download complete
 8dbd9e392a96: Download complete
 511136ea3c5a: Download complete
@@ -37,7 +42,7 @@ db590527a4a8: Download complete
 0678282c03c3: Download complete
 4d26dd3ebc1c: Download complete
 d4010efcfd86: Download complete
-99ec81b80c55: Download complete 
+99ec81b80c55: Download complete
 b261bc65cd23: Download complete
 42404685406e: Download complete
 6cc69450fe19: Download complete
@@ -116,9 +121,11 @@ sudo docker.io run -i -t -d --name sonar -p 9000:9000 --link smysql:db tpires/so
 8550f0ed7794c169d91e88157f5fe37a670f37ed5171313d6bcbf8787733082f
 ```
 
-Das war es schon! Damit ist SonarQube im Web-Browser über die Adresse `http://localhost:9000` erreichbar.  
+Das war es schon! Damit ist SonarQube im Web-Browser über die Adresse
+`http://localhost:9000` erreichbar.
 
-Für einen schnellen Test der Installation habe ich die Datei `build.gradle` eines HelloWorld-Projekts wie folgt erweitert:
+Für einen schnellen Test der Installation habe ich die Datei `build.gradle`
+eines HelloWorld-Projekts wie folgt erweitert:
 
 <pre class="lang:default decode:true " title="Integration des Plugins sonarRunner" >apply plugin: 'sonar-runner'
 
@@ -132,4 +139,5 @@ sonarRunner {
     }
 }</pre>
 
-Nach einem `gradle sonarRunner` erscheint auch prompt die Beurteilung des HelloWorld-Projekts im Web-Browser.
+Nach einem `gradle sonarRunner` erscheint auch prompt die Beurteilung des
+HelloWorld-Projekts im Web-Browser.

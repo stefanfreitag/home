@@ -62,7 +62,7 @@ Der Zugriff auf das heruntergeladene Image erfolgt beispielsweise über die
 Docker mit der Option `images` zeigt:
 
 ```shell
-sudo docker.io images 
+sudo docker.io images
 
 REPOSITORY          TAG                 IMAGE ID            CREATED             VIRTUAL SIZE
 ubuntu              utopic              75204fdb260b        5 days ago          230.1 MB
@@ -82,6 +82,6 @@ root@a381af6880bf:/#
 
 An obigem Beispiel ist erkennbar, dass man das Image über seine kurze ID als
 auch über `ubuntu:utopic` ansprechen kann. Mit einem einfachen `exit` verlässt
-man den Container übrigens wieder.  
+man den Container übrigens wieder.
 Insgesamt läuft damit das Einhorn erstmal eingezäunt in einem Container und
 wird in den kommenden Tagen von mir genauer untersucht werden.

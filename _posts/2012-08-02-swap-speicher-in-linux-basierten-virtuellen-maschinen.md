@@ -21,7 +21,8 @@ Man muss bei diesem Vorgehen jedoch mit Performanceeinbußen rechnen.
 Im Einzelnen sind zur Umsetzung des Datei-basierten Swap-Speichers folgende
 Schritte durchzuführen:
 
-- Innerhalb der virtuellen Maschine per `dd` eine Datei anlegen, hier zum Beispiel die Datei `/swapfile` mit einer Größe von 1024 MByte
+- Innerhalb der virtuellen Maschine per `dd` eine Datei anlegen, hier zum
+  Beispiel die Datei `/swapfile` mit einer Größe von 1024 MByte
 
   ```shell
   dd if=/dev/zero of=/swapfile bs=1024 count=1024k
@@ -33,7 +34,9 @@ Schritte durchzuführen:
   mkswap -f /swapfile
   ```
 
-- Da nicht jeder den ausgelagerten Speicherinhalt lesen können soll, sind die Zugriffsrechte auf die Datei restriktiv zu setzen. Des Weiteren soll die Datei dem Nutzer `root` gehören.
+- Da nicht jeder den ausgelagerten Speicherinhalt lesen können soll, sind
+  die Zugriffsrechte auf die Datei restriktiv zu setzen. Des Weiteren soll
+  die Datei dem Nutzer `root` gehören.
 
   ```shell
   chmod 600 /swapfile
@@ -46,7 +49,9 @@ Schritte durchzuführen:
   swapon /swapfile
   ```
 
-- Damit der Swap-Speicher nach dem Neustart der virtuellen Maschine automatisch eingebunden wird, ist ein Eintrag in der Datei `/etc/fstab` notwendig. Dieser könnte wie folgt aussehen:
+- Damit der Swap-Speicher nach dem Neustart der virtuellen Maschine
+  automatisch eingebunden wird, ist ein Eintrag in der Datei `/etc/fstab`
+  notwendig. Dieser könnte wie folgt aussehen:
 
   ```shell
   /swap    swap     defaults     0     0
