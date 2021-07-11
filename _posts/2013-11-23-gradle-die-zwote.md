@@ -5,9 +5,15 @@ author: Stefan Freitag
 layout: post
 ---
 Zuletzt hatte ich in
-[diesem Blog-Eintrag](2013-11-08-hello-world-java-the-gradle-way.md) beschrieben wie man ein einfaches Java-Projekt mit [Gradle](http://www.gradle.org/) bauen kann. Dieses Beispiel wird nun etwas erweitert.
+[diesem Blog-Eintrag](2013-11-08-hello-world-java-the-gradle-way.md) beschrieben
+wie man ein einfaches Java-Projekt mit [Gradle](http://www.gradle.org/) bauen
+kann. Dieses Beispiel wird nun etwas erweitert.
 
-Es geht manchmal nicht nur um das Bauen bzw. Ausführen eines Projekts, sondern auch um dessen Verteilung. Typischerweise findet man draußen in der Welt Projekte, die Quellcode, Dokumentation und die compilierte Software in separaten JARs zum Download anbieten. Die Erzeugung genau dieser Struktur wird für das "Hello World, Java"-Projekt mit dem folgenden Gradle Build-Skript erreicht:
+Es geht manchmal nicht nur um das Bauen bzw. Ausführen eines Projekts, sondern
+auch um dessen Verteilung. Typischerweise findet man draußen in der Welt
+Projekte, die Quellcode, Dokumentation und die compilierte Software in separaten
+JARs zum Download anbieten. Die Erzeugung genau dieser Struktur wird für das
+"Hello World, Java"-Projekt mit dem folgenden Gradle Build-Skript erreicht:
 
 ```plain
 project.description = 'Hello World'
@@ -34,9 +40,13 @@ artifacts {
 }
 ```
 
-Im Vergleich zur ersten Version des Build-Skripts sind die Zeilen 9 bis 22 hinzukommen.
+Im Vergleich zur ersten Version des Build-Skripts sind die Zeilen 9 bis 22
+hinzukommen.
 
-- Der Task `sourcesJar` wird aufgrund des `dependsOn` nach der Erstellung der `Class`-Dateien ausgeführt. Das dabei erstellte JAR verwendet alle Quelldateien des Projekts und der Name des Archivs wird durch den Classifier zu `HelloWorld-1.0-sources.jar`.
+- Der Task `sourcesJar` wird aufgrund des `dependsOn` nach der Erstellung der
+  `Class`-Dateien ausgeführt. Das dabei erstellte JAR verwendet alle
+  Quelldateien des Projekts und der Name des Archivs wird durch den Classifier
+  zu `HelloWorld-1.0-sources.jar`.
 
   ```plain
   task sourcesJar(type: Jar, dependsOn: classes) {
@@ -45,7 +55,11 @@ Im Vergleich zur ersten Version des Build-Skripts sind die Zeilen 9 bis 22 hinzu
   }
   ```
 
-- Nach der eben gegebenen Erklärung sollte der Task `javadocJar` leicht zu verstehen sein. Aufgrund des `dependsOn` wird der Task nach der Erstellung der Javadoc-Dateien ausgeführt. Das dabei erstellte JAR verwendet alle Dateien aus dem Javadoc-Zielverzeichnis. Der Name des Archivs wird durch den Classifier zu `HelloWorld-1.0-javadoc.jar`.
+- Nach der eben gegebenen Erklärung sollte der Task `javadocJar` leicht zu
+  verstehen sein. Aufgrund des `dependsOn` wird der Task nach der Erstellung
+  der Javadoc-Dateien ausgeführt. Das dabei erstellte JAR verwendet alle Dateien
+  aus dem Javadoc-Zielverzeichnis. Der Name des Archivs wird durch den
+  Classifier zu `HelloWorld-1.0-javadoc.jar`.
 
   ```plain
   task javadocJar(type: Jar, dependsOn: javadoc) {
@@ -54,7 +68,9 @@ Im Vergleich zur ersten Version des Build-Skripts sind die Zeilen 9 bis 22 hinzu
   }
   ```
 
-- Als Artefakte werden solche Dateien bezeichnet, die das Projekt für die Außenwelt bereitstellt. Damit ist klar, warum im Artefakt-Abschnitt die beiden Tasks erscheinen.
+- Als Artefakte werden solche Dateien bezeichnet, die das Projekt für die
+  Außenwelt bereitstellt. Damit ist klar, warum im Artefakt-Abschnitt die
+  beiden Tasks erscheinen.
 
   ```plain
   artifacts {
@@ -63,7 +79,9 @@ Im Vergleich zur ersten Version des Build-Skripts sind die Zeilen 9 bis 22 hinzu
   }
   ```
 
-Ist das Build-Skript erweitert, kann es ausgeführt werden. Wie man sieht, erscheinen die beiden neu definierten Tasks in der Auflistung der ausgeführten Tasks:
+Ist das Build-Skript erweitert, kann es ausgeführt werden. Wie man sieht,
+erscheinen die beiden neu definierten Tasks in der Auflistung der
+ausgeführten Tasks:
 
 ```shell
 gradle -b build.gradle clean build
