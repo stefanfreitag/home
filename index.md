@@ -5,6 +5,19 @@
 layout: default
 ---
 
+## Pages
+
+<ul>
+{% for page in site.pages %}
+
+    <li>
+      <a href="{{ page.url | absolute_url }}">{{ page.title }}</a>
+    </li>
+{% endif %}
+</ul>
+
+## Posts
+
 <ul>
   {% for post in site.posts %}
     <li>
