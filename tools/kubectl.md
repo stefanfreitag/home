@@ -1,6 +1,6 @@
 ---
 title: 'kubectl'
-tag: k8s, kubernetes, kubectl
+tags: k8s kubernetes kubectl
 
 ---
 
