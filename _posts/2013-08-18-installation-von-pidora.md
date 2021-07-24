@@ -4,17 +4,19 @@ date: 2013-08-18T17:18:10+02:00
 layout: post
 ---
 
-Vergangenen Freitag ist am Ende des Arbeitstages mein Pi in meinen Rucksack
-und damit mit nach Hause gewandert, um am Wochenende ein paar neue Dinge
+Vergangenen Freitag ist am Ende des Arbeitstages mein Pi in meinen Rucksack und
+damit mit nach Hause gewandert, um am Wochenende ein paar neue Dinge
 ausprobieren zu können. Wenn ich gerade so aus dem Fenster schaue eine gute
-Entscheidung - es regnet leider Gottes.
-Testweise möchte ich neben Raspbian eine andere Linux-Distribution ausprobieren. Als Kandidat habe ich Pidora auserkoren. Die Distribution kann über die <a href="http://pidora.ca/" title="Raspberry Pi Fedora Remix" target="_blank">Pidora-Webseite</a> bezogen werden. Nachfolgend beschreibe ich die Installation basierend auf Version 18-r2c.
+Entscheidung - es regnet leider Gottes. Testweise möchte ich neben Raspbian eine
+andere Linux-Distribution ausprobieren. Als Kandidat habe ich Pidora auserkoren.
+Die Distribution kann über die [Pidora-Webseite](http://pidora.ca/) bezogen
+werden. Nachfolgend beschreibe ich die Installation basierend auf Version
+18-r2c.
 
-
-Nach
-dem Herunterladen des circa 490 MByte großen `zip`-Archivs `pidora-18-r2c.zip`
-wird dessen Integrität anhand der `sha1`-Prüfsumme festgestellt.
-Die `sha1`-Prüfsumme für die heruntergeladene Datei ermittelt man per
+Nach dem Herunterladen des circa 490 MByte großen `zip`-Archivs
+`pidora-18-r2c.zip` wird dessen Integrität anhand der `sha1`-Prüfsumme
+festgestellt. Die `sha1`-Prüfsumme für die heruntergeladene Datei ermittelt man
+per
 
 ```shell
 $ sha1sum pidora-18-r2c.zip

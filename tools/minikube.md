@@ -18,3 +18,12 @@ title: 'minikube'
     minikube version: v1.22.0
     commit: a03fbcf166e6f74ef224d4a63be4277d017bb62e
     ```
+
+## Commands
+
+- Retrieves the IP address of the specified node
+
+  ```shell
+  minikube ip
+  192.168.58.2
+  ```
