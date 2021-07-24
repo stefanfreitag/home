@@ -1,5 +1,5 @@
 ---
-title: 'minikube'
+title: 'kompose'
 ---
 
 ## Installation

@@ -127,7 +127,8 @@ Das war es schon! Damit ist SonarQube im Web-Browser über die Adresse
 Für einen schnellen Test der Installation habe ich die Datei `build.gradle`
 eines HelloWorld-Projekts wie folgt erweitert:
 
-<pre class="lang:default decode:true " title="Integration des Plugins sonarRunner" >apply plugin: 'sonar-runner'
+```text
+apply plugin: 'sonar-runner'
 
 sonarRunner {
     sonarProperties {
@@ -137,7 +138,8 @@ sonarRunner {
         property "sonar.jdbc.username", "sonar"
         property "sonar.jdbc.password", "123qwe"
     }
-}</pre>
+}
+```
 
 Nach einem `gradle sonarRunner` erscheint auch prompt die Beurteilung des
 HelloWorld-Projekts im Web-Browser.

@@ -55,7 +55,7 @@ kubectl version --client
   ```
 
 - Deleting a pod
-  
+
   ```shell
   kubectl delete pods <pod_name>
   ```

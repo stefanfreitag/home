@@ -23,12 +23,14 @@ As you can see the created image has a size of 726 MByte - for a simple
 
 When publishing the image, its size does not really matter, but it is crucial
 when creating containers. First of all the image needs to be transferred from
-the repository to the target machine (e.g. a [Kubernetes](https://kubernetes.io/)
-node or a [Docker Swarm](https://docs.docker.com/engine/swarm/) worker).
-Secondly the image is stored on the target machine and the smaller the images
-are the more you can store.
+the repository to the target machine (e.g. a
+[Kubernetes](https://kubernetes.io/) node or a [Docker
+Swarm](https://docs.docker.com/engine/swarm/) worker). Secondly the image is
+stored on the target machine and the smaller the images are the more you can
+store.
 
-The idea for improving the situation is hidden in the first line of the Dockerfile
+The idea for improving the situation is hidden in the first line of the
+Dockerfile
 
 ```plain
 FROM openjdk:8
@@ -48,8 +50,10 @@ WORKDIR /root
 CMD ["java", "HelloWorld"]
 ```
 
-The [jre-alpine](https://github.com/docker-library/openjdk/blob/dd54ae37bc44d19ecb5be702d36d664fed2c68e4/8/jre/alpine/Dockerfile) maps to a [Alpine Linux](https://alpinelinux.org/)
-and JRE version 8. With the updated Dockerfile a new image can be created.
+The
+[jre-alpine](https://github.com/docker-library/openjdk/blob/dd54ae37bc44d19ecb5be702d36d664fed2c68e4/8/jre/alpine/Dockerfile)
+maps to a [Alpine Linux](https://alpinelinux.org/) and JRE version 8. With the
+updated Dockerfile a new image can be created.
 
 ```plain
 REPOSITORY                           TAG                 IMAGE ID            CREATED             SIZE
