@@ -24,7 +24,7 @@ kubectl version --client
   To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
   ```
 
-- Listing everything
+- List everything
 
   ```shell
   kubectl get all
@@ -52,6 +52,12 @@ kubectl version --client
 
   ```shell
   kubectl describe pod <pod_name>
+  ```
+
+- Show pod labels
+
+  ```shell
+  kubectl get pods --show-labels
   ```
 
 - Deleting a pod
