@@ -1,7 +1,6 @@
 ---
 title: 'minikube'
 ---
-
 ## Installation
 
 - Download the executable

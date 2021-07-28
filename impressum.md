@@ -1,7 +1,5 @@
 ---
 title: Impressum
-date: 2012-07-29T21:02:04+02:00
-layout: page
 ---
 Angaben gemäß § 5 TMG:
 

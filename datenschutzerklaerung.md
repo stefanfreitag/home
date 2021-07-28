@@ -1,7 +1,5 @@
 ---
 title: Datenschutzerklärung
-date: 2018-07-22T20:36:00+02:00
-layout: page
 ---
 
 Diese Datenschutzerklärung soll die Nutzer dieser Website über die Art, den
@@ -56,11 +54,11 @@ Sicherheit dieser Website.
 Falls Sie nicht möchten, dass Cookies zur Reichweitenmessung auf Ihrem Endgerät
 gespeichert werden, können Sie dem Einsatz dieser Dateien hier widersprechen:
 
-- Cookie-Deaktivierungsseite der Netzwerkwerbeinitiative  
+- Cookie-Deaktivierungsseite der Netzwerkwerbeinitiative
     [http://optout.networkadvertising.org/?c=1#!/](http://optout.networkadvertising.org/?c=1#!/)
-- Cookie-Deaktivierungsseite der US-amerikanischen Website  
+- Cookie-Deaktivierungsseite der US-amerikanischen Website
     [http://optout.aboutads.info/?c=2#!/](http://optout.aboutads.info/?c=2#!/)
-- Cookie-Deaktivierungsseite der europäischen Website  
+- Cookie-Deaktivierungsseite der europäischen Website
     [http://optout.networkadvertising.org/?c=1#!/](http://optout.networkadvertising.org/?c=1#!/)
 
 Gängige Browser bieten die Einstellungsoption, Cookies nicht zuzulassen.  
