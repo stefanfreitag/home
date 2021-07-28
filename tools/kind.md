@@ -17,7 +17,7 @@ sudo chown root:root /usr/local/bin/kind
 $ kind create cluster
 Creating cluster "kind" ...
  ✓ Ensuring node image (kindest/node:v1.18.2) 🖼
- ✓ Preparing nodes 📦 
+ ✓ Preparing nodes 📦
  ✓ Writing configuration 📜
  ✓ Starting control-plane 🕹️
  ✓ Installing CNI 🔌
