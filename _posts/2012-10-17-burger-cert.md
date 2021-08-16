@@ -1,8 +1,6 @@
 ---
-
 title: Bürger-CERT
 date: 2012-10-17T19:38:40+02:00
-layout: post
 ---
 Gestern abend bin ich über einen - soweit ich einschätzen kann - sehr
 nützlichen Dienst des Bundesamts für Sicherheit in der Informationstechnik,

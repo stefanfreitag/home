@@ -2,8 +2,11 @@
 title: Swap-Speicher in Linux-basierten virtuellen Maschinen
 date: 2012-08-02T20:52:06+02:00
 author: Stefan Freitag
-tags: swap linux virtual machine vm
-layout: post
+tags: 
+  - swap
+  - linux
+  - virtual machine
+  - vm
 ---
 
 Sollte auf einem Rechner der physische Speicher knapp werden, greifen das darauf

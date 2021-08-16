@@ -2,7 +2,6 @@
 title: Installation einer Scientific Linux VM per Kickstart
 author: Stefan Freitag
 date: 2012-09-29T22:27:53+02:00
-layout: post
 ---
 
 Für die Installation des Betriebssystems in eine virtuelle Maschine gibt es die

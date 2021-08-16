@@ -2,7 +2,6 @@
 title: Erzeugen einer PuTTY Private Key-Datei
 author: Stefan Freitag
 date: 2012-08-09T20:50:31+02:00
-layout: post
 ---
 
 Mit dem teilweisen Umstieg von meinem Favorite-Betriebssystem auf Microsoft

@@ -2,7 +2,6 @@
 title: 'Utopic Unicorn  &#8211; ange&#8220;docker&#8220;t'
 date: 2014-08-17T18:18:56+02:00
 author: Stefan Freitag
-layout: post
 ---
 
 Seit meinen jungen Tagen bin ich durch diverse Linux-Distributionen wie

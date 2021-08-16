@@ -2,7 +2,6 @@
 title: Gradle, die Zwote
 date: 2013-11-23T17:54:07+01:00
 author: Stefan Freitag
-layout: post
 ---
 Zuletzt hatte ich in
 [diesem Blog-Eintrag](2013-11-08-hello-world-java-the-gradle-way.md) beschrieben

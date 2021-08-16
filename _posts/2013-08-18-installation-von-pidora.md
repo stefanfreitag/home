@@ -1,7 +1,6 @@
 ---
 title: Installation von Pidora
 date: 2013-08-18T17:18:10+02:00
-layout: post
 ---
 
 Vergangenen Freitag ist am Ende des Arbeitstages mein Pi in meinen Rucksack und

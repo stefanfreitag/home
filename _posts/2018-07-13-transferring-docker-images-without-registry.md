@@ -1,7 +1,6 @@
 ---
 title: Transferring Docker images without registry
 date: 2018-07-13T20:38:38+02:00
-layout: post
 ---
 
 Sometimes it can be very difficult or even impossible to access the public or

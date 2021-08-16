@@ -2,7 +2,6 @@
 title: Moto G Auto PowerOn
 date: 2016-07-23T22:28:49+02:00
 author: Stefan Freitag
-layout: post
 ---
 
 Mein aktuelles Smartphone ist ein [Moto

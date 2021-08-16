@@ -1,13 +1,43 @@
 # Name of website
-title: Th!nk Pos!tive
+title                 : Th!nk Pos!tive
 
 # Name to show in the footer
-author: Stefan Freitag
+author                : Stefan Freitag
 
-baseurl: "/home"
-twitter_username: stefanfreitag
-github_username:  stefanfreitag
-theme: jekyll-theme-hacker
+baseurl               : "/home"
+
+twitter_username      : stefanfreitag
+github_username       : stefanfreitag
+
+remote_theme          : "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin : "neon"
+locale                : "en-US"
+
 
 plugins:
   - jekyll-include-cache
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/

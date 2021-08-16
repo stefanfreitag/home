@@ -1,7 +1,6 @@
 ---
 title: Icinga-Informationen per CLI abrufen
 date: 2013-05-10T19:20:00+02:00
-layout: post
 author: Stefan Freitag
 ---
 Schon während meiner Zeit an der [Technischen Universität

@@ -1,7 +1,6 @@
 ---
 title: Fernsehen unter Linux
 date: 2013-02-17T13:23:23+01:00
-layout: post
 ---
 Die öffentlich-rechtlichen als auch die privaten Fernsehsender stellen seit
 geraumer Zeit bereits ausgestrahlte Sendungen und Spielfilme in Mediatheken

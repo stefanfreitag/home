@@ -3,7 +3,6 @@ title: SonarQube im Dock
 date: 2014-08-20T20:59:20+02:00
 author: Stefan Freitag
 tags: sonarqube docker
-layout: post
 ---
 
 Mit dem Programmieren ist es so eine Sache: manchmal gewöhnt man sich Dinge an,

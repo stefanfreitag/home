@@ -1,7 +1,6 @@
 ---
 title: Der LedBorg ist da!
 date: 2013-05-16T21:45:59+02:00
-layout: post
 ---
 Wer die letzten Blog-Einträge verfolgt hat, kann erahnen welchen Einsatzzweck
 der [LedBorg](https://www.piborg.org/ledborg "LedBorg Homepage") haben wird.

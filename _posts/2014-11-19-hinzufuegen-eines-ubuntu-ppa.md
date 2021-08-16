@@ -2,7 +2,6 @@
 title: Hinzufügen eines Ubuntu PPA
 date: 2014-11-19T20:45:21+01:00
 author: Stefan Freitag
-layout: post
 ---
 
 Für tilestream wird eine spezielle Version der Software

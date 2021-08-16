@@ -1,9 +1,11 @@
 ---
 title: Installation eines VOMRS Servers auf Scientific Linux 5
 date: 2012-08-07T21:29:29+02:00
-layout: post
 author: Stefan Freitag
-tags: vomrs sl5 grid
+tags: 
+  - vomrs
+  - sl5
+  - grid
 ---
 
 Hallo zusammen 🙂

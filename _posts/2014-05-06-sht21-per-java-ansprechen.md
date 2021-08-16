@@ -2,7 +2,6 @@
 title: SHT21 per Java ansprechen
 date: 2014-05-06T22:04:17+02:00
 author: Stefan Freitag
-layout: post
 ---
 
 Nach dem RaspiLCD habe ich mir den Temperatur- und Luftfeuchtigkeitssensor SHT21

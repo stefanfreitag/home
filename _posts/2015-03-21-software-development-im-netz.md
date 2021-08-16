@@ -1,5 +1,6 @@
 ---
-title: Software-Development im Netz date: 2015-03-21T13:54:03+01:00 layout: post
+title: Software-Development im Netz 
+date: 2015-03-21T13:54:03+01:00
 ---
 Je länger ich aktiv Software entwickle - sowohl beruflich also auch privat -
 desto mehr wird klar, dass ein gesundes Umfeld notwendig ist. Es reicht einfach
