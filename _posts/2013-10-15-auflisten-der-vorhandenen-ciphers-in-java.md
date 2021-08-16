@@ -1,7 +1,6 @@
 ---
 title: Auflisten der vorhandenen Ciphers in Java
 date: 2013-10-15T07:57:08+02:00
-layout: post
 author: Stefan Freitag
 ---
 Eigentlich ist mit dem Titel des Blog-Eintrags schon alles gesagt. Wer sich die

@@ -3,7 +3,6 @@
 title: 'Hello World Docker Image - revisited'
 date: 2018-07-11T21:34:40+02:00
 author: Stefan Freitag
-layout: post
 ---
 In an older blog post I showed you how to create a simple
 [Docker](https://www.docker.com/) image. Now it is time to have a look at

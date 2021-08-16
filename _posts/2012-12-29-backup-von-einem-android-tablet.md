@@ -2,7 +2,6 @@
 title: Backup von einem Android Tablet
 date: 2012-12-29T20:55:23+01:00
 author: Stefan Freitag
-layout: post
 ---
 Von Zeit zu Zeit erstelle ich von den Daten auf meinem Rechner ein Backup. Vor
 kurzem sind Backups von meinem Smartphone und dem Tablet dazugekommen. Um von

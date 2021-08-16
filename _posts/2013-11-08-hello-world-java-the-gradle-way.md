@@ -2,7 +2,6 @@
 title: “Hello World, Java!” – The Gradle Way
 date: 2013-11-08T23:03:50+01:00
 author: Stefan Freitag
-layout: post
 ---
 
 In diesem [Blog-Eintrag](http://www.stefreitag.de/wp/2013/11/06/hello-world-java-ant-style/)
