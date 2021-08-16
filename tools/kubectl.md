@@ -30,6 +30,8 @@ kubectl version --client
   kubectl get all
   ```
 
+### Pods
+
 - Creating a pod from a file
 
   ```shell
@@ -64,4 +66,27 @@ kubectl version --client
 
   ```shell
   kubectl delete pods <pod_name>
+  ```
+
+## Services
+
+## Deployments
+
+- Show deployment status
+
+  ```shell
+  kubectl rollout status deployment <deployment_name>
+  deployment "webapp" successfully rolled out
+  ```
+
+- Show deployment history
+  
+  ```shell
+  kubectl rollout history deployment <deployment_name>
+  ```
+
+- Rollback to previous deployment version
+
+  ```shell
+  kubectl rollout undo deployment <deployment_name>
   ```
