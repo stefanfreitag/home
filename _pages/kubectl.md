@@ -1,6 +1,10 @@
 ---
 title: 'kubectl'
-tags: k8s kubernetes kubectl
+author: Stefan Freitag
+tags: 
+ - k8s 
+ - kubernetes 
+ - kubectl
 
 ---
 

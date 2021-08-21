@@ -1,5 +1,6 @@
 ---
-title: 'eksctl'
+title: eksctl
+author: Stefan Freitag
 ---
 
 ## Installation

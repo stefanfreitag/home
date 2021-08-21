@@ -1,5 +1,6 @@
 ---
-title: 'minikube'
+title: minikube
+author: Stefan Freitag
 ---
 ## Installation
 
