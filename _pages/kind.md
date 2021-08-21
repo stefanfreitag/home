@@ -1,5 +1,6 @@
 ---
 title: 'kind'
+author: Stefan Freitag
 ---
 
 ### Installation

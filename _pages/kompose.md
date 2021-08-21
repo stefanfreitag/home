@@ -1,5 +1,6 @@
 ---
 title: 'kompose'
+author: Stefan Freitag
 ---
 
 ## Installation

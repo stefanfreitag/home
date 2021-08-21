@@ -1,0 +1,7 @@
+main:
+- title: "Tools"
+  url: /_pages/tools
+- title: "Impressum"
+  url: /_pages/impressum
+- title: "Datenschutz"
+  url: /_pages/datenschutzerklaerung

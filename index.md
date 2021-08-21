@@ -4,23 +4,3 @@
 
 layout: home
 ---
-
-## Pages
-
-<ul>
-{% for page in site.pages %}
-    <li>
-      <a href="{{ page.url | absolute_url }}">{{ page.title }}</a>
-    </li>
-{% endfor %}
-</ul>
-
-## Posts
-
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
