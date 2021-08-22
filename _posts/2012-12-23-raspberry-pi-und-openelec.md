@@ -9,8 +9,8 @@ tags:
 
 Mein erstes Projekt mit dem Raspberry Pi besteht darin, diesen als
 Multimedia-Box einzusetzen. Hierzu verwende ich OpenELEC. Auf der
-[OpenElec-Homepage](http://openelec.tv/) wird die Software wie folgt
-beschrieben:
+[OpenElec-Homepage](https://github.com/OpenELEC/OpenELEC.tv) wird die Software
+wie folgt beschrieben:
 
 > Open Embedded Linux Entertainment Center, or OpenELEC for short, is a small
 > Linux distribution built from scratch as a platform to turn your computer
@@ -18,7 +18,8 @@ beschrieben:
 > boot as fast as possible and the install is so easy that anyone can turn a
 > blank PC into a media machine in less than 15 minutes.
 
-Die Software kann kostenlos über diesen [Link](http://openelec.tv/get-openelec)
+Die Software kann kostenlos über diesen
+[Link](https://github.com/OpenELEC/OpenELEC.tv/archive/refs/tags/2.95.6.tar.gz)
 heruntergeladen werden. Nach dem Download ist die Datei einfach zu entpacken per
 
 ```shell

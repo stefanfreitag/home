@@ -13,7 +13,7 @@ meiner Lieblingswerkzeuge ist Sonar bzw. [SonarQube](http://www.sonarqube.org/)
 wie es heute heißt. SonarQube besteht aus insgesamt drei Komponenten:
 
 - einem Modul für die Integration in Build-Management-Tools wie
-  [Ant](http://ant.apache.org/"), [Maven](http://maven.apache.org/) oder
+  [Ant](http://ant.apache.org/), [Maven](http://maven.apache.org/) oder
   [Gradle](http://www.gradle.org/)
 - einer Datenbank zur Persistierung der Testergebnisse
 - einem Webserver zur Verwaltung bzw. Visualisierung der Testergebnisse

@@ -1,6 +1,7 @@
 ---
 title: Datenschutzerklärung
 author: Stefan Freitag
+toc: true
 ---
 
 Diese Datenschutzerklärung soll die Nutzer dieser Website über die Art, den
