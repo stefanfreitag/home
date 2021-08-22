@@ -2,7 +2,9 @@
 title: Raspberry Pi und OpenELEC
 date: 2012-12-23T20:45:25+01:00
 author: Stefan Freitag
-tags: raspberry pi openelec
+tags: 
+  - raspberry-pi
+  - openelec
 ---
 
 Mein erstes Projekt mit dem Raspberry Pi besteht darin, diesen als
