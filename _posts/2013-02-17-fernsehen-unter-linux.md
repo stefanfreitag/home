@@ -7,8 +7,8 @@ geraumer Zeit bereits ausgestrahlte Sendungen und Spielfilme in Mediatheken
 bereit. Das es davon eine ganze Menge gibt, sieht man an der folgenden
 (unvollständigen) Aufzählung:
 
-- [3sat Mediathek](http://www.3sat.de/mediathek/index.php?display=1&#038;mode=aktuell)
-- [ARD Mediathek](http://www.ardmediathek.de/ard/servlet/)
+- [3sat Mediathek](https://www.3sat.de/)
+- [ARD Mediathek](https://www.ardmediathek.de/)
 - [ARTE Mediathek](http://www.arte.tv/de "ARTE Mediathek")
 - [NDR Mediathek](http://www.ndr.de/mediathek/ "NDR Mediathek")
 - [WDR Mediathek](http://www.wdr.de/mediathek/html/regional/index.xml)
