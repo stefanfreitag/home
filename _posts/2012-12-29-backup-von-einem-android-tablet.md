@@ -2,6 +2,8 @@
 title: Backup von einem Android Tablet
 date: 2012-12-29T20:55:23+01:00
 author: Stefan Freitag
+tags:
+    - android
 ---
 Von Zeit zu Zeit erstelle ich von den Daten auf meinem Rechner ein Backup. Vor
 kurzem sind Backups von meinem Smartphone und dem Tablet dazugekommen. Um von
@@ -20,14 +22,14 @@ das Endgerät mittels eines USB-Kabels an den PC angebunden.
 Ob das Endgerät, in meinem Fall das Tablet, durch `adb` aufgefunden wurde,
 zeigt der Aufruf
 
-```plain
+```shell
 adb devices
 ```
 
 Sofern der Aufruf keine Geräte auflistet, liegt leider ein Problem vor.
 Das Backup an sich geht, nachdem das Gerät erkannt wurde, einfach von statten:
 
-```plain
+```shell
 adb backup -apk -shared -all -f backup.ab
 ```
 
@@ -37,6 +39,6 @@ zustimmen.
 
 Die Wiederherstellung der Daten geschieht analog per
 
-```plain
+```shell
 adb restore backup.ab
 ```

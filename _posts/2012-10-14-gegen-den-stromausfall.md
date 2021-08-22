@@ -1,5 +1,4 @@
 ---
-
 title: 'Gegen den Stromausfall'
 date: 2012-10-14T09:55:39+02:00
 author: Stefan Freitag

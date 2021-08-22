@@ -1,6 +1,7 @@
 ---
 title: Tor!!! Tor!!! Tor!!!
 date: 2012-11-17T13:43:11+01:00
+author: Stefan Freitag
 ---
 Nach meinem letzten Artikel zum LesArt.Festival liegt bei dem Titel der Schluss
 zum BVB und dem Fußball nah. Doch handelt es sich bei diesem Tor um eine
