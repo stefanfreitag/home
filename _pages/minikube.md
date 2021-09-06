@@ -8,16 +8,18 @@ author: Stefan Freitag
 
   ```shell
   curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
-  sudo install minikube-linux-amd64 /usr/local/bin/minikube
+  sudo mv minikube-linux-amd64 /usr/local/bin/minikube
+  sudo chown root: /usr/local/bin/minikube
+  sudo chmod +x /usr/local/bin/minikube
   ```
 
 - Check the version
 
-    ```shell
-    minikube version
-    minikube version: v1.22.0
-    commit: a03fbcf166e6f74ef224d4a63be4277d017bb62e
-    ```
+  ```shell
+  minikube version
+  minikube version: v1.22.0
+  commit: a03fbcf166e6f74ef224d4a63be4277d017bb62e
+  ```
 
 ## Commands
 
@@ -27,3 +29,4 @@ author: Stefan Freitag
   minikube ip
   192.168.58.2
   ```
+
