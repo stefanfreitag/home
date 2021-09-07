@@ -18,23 +18,36 @@ helm installed into /usr/local/bin/helm
 
 ## Commands
 
+- Create a new helm chart
+
+  ```bash
+  helm create <chart-name>
+  ```
+
+- Package a chart
+
+  ```bash
+  helm package <directory>
+  Successfully packaged chart and saved it to: [...]
+  ```
+  
 - Search for helm charts
 
-```bash
-helm search hub wordpress
-```
+  ```bash
+  helm search hub wordpress
+  ```
 
 - Add stable repository
 
-```bash
-helm repo add stable https://kubernetes-charts.storage.googleapis.com
-```
+  ```bash
+  helm repo add stable https://kubernetes-charts.storage.googleapis.com
+  ```
 
 - Update repositories
 
-```bash
-helm repo update
-```
+  ```bash
+  helm repo update
+  ```
 
 Example grafana:
 
