@@ -17,7 +17,7 @@ sehr einfach mittels der [Pi4J](http://pi4j.com/)-Bibliothek umsetzen.
   
   ```java
   PinLayout LAYOUT =
-  PinLayout.create(RaspiPin.GPIO_00, RaspiPin.GPIO_02, RaspiPin.GPIO_03);</pre>
+  PinLayout.create(RaspiPin.GPIO_00, RaspiPin.GPIO_02, RaspiPin.GPIO_03);
   ```
 
 - Die Farbintensität auf den einzelnen Kanälen lässt sich per
@@ -28,7 +28,7 @@ sehr einfach mittels der [Pi4J](http://pi4j.com/)-Bibliothek umsetzen.
   ```java
   SoftPwm.softPwmCreate(pinLayout.getRed().getAddress(), 0, 50);
   SoftPwm.softPwmCreate(pinLayout.getGreen().getAddress(), 0, 50);
-  SoftPwm.softPwmCreate(pinLayout.getBlue().getAddress(), 0, 50);</pre>
+  SoftPwm.softPwmCreate(pinLayout.getBlue().getAddress(), 0, 50);
   ```
 
 - Soll die LED eine Farbe anzeigen, so muss diese in % duty cycles pro Kanal
@@ -41,7 +41,7 @@ sehr einfach mittels der [Pi4J](http://pi4j.com/)-Bibliothek umsetzen.
 
   SoftPwm.softPwmWrite(layout.getRed().getAddress(), (int) (colors[0] * 50f));
   SoftPwm.softPwmWrite(layout.getGreen().getAddress(), (int) (colors[1] * 50f));
-  SoftPwm.softPwmWrite(layout.getBlue().getAddress(), (int) (colors[2] * 50f));</pre>
+  SoftPwm.softPwmWrite(layout.getBlue().getAddress(), (int) (colors[2] * 50f));
    ```
 
 Soviel zu den Trockenübungen: auf
