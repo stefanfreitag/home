@@ -24,12 +24,14 @@ author: Stefan Freitag
 ### tflint
 
 - Installation
-
-```shell
-curl -s https://raw.githubusercontent.com/terraform-linters/tflint/master/install_linux.sh | bash
-```
+  
+  ```shell
+  curl -s https://raw.githubusercontent.com/terraform-linters/tflint/master/install_linux.sh | bash
+  ```
 
 ## Links
 
 - [Terraform CDK](https://github.com/hashicorp/terraform-cdk)
-  
+- [tflint](https://github.com/terraform-linters/tflint)
+- [Terraform Associate Review Guide](https://learn.hashicorp.com/tutorials/terraform/associate-review)
+- [Terraform Associate Study Guide](https://learn.hashicorp.com/tutorials/terraform/associate-study)
